@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 3</title>
+</head>
+<body>
+    <header>
+        <u><h1>Task 3</h1></u>
+        <p>My name is Yash Vijan and I am pursuing my Btech from DIT University<p>
+    </header>
+
+    <main>
+        <article>
+            <u><h2>Tags:</h2></u>
+                <h2>Heading and Line Break Tags: </h2>
+                <h5>Heading in h5</h5>
+            <br>
+            <h6>Heading in h6</h6>
+
+            <h2>Paragraph and Pre Formatted Tags: </h2>
+                <p>Hello! Welcome. </p>
+                <p>                 This is a new paragraph-Paragraph Tag ignores spaces</p>
+                <pre>                 Pre formatted text-does not ignore spaces</pre>
+            <br>
+
+            <h2>Bold and Italic Tags: </h2>
+                <p><b>Bold Text    </b>    <i>   Italic Text</i></p>
+
+            <h2>Subscript,and Superscript Tags: </h2>
+                <p><sub>9    </sub>      100  <sup>   5</sup></p>
+        
+            <h2>Deleted,Emphasised,Marked,Small,Strong and Inserted Text:  </h2>
+                <p> Hello <del>Deleted Text   </del> <em>emphasised   </em> <mark>marked  </mark> <small>smaller text  </small> <strong>strong  </strong> <ins>Inserted Text</ins></p>
+    
+            <p><q>Short Quotations</q></p>
+            <br>
+
+            <h2>Image Tags: </h2>
+                <img src="images/download.jpg" alt="Learning is Fun" width="100" height=="100" >
+                <img src="images/first.jpg" alt="Learning is Fun" width="100" height=="100" >
+                <br>
+
+            <h2>Style Tags: </h2>   
+                <h3 style="background-color:powderblue;">Style on Heading Tag</h3>
+                <h3 style="border:2px solid Tomato;">Hello World</h3>
+                <p style="background-color: lightgreen;"> Style Tags on Paragraph</p> 
+                <p style="font-size: 20px;">Paragraph-Font 20px</p>
+                <p style="color: green; border:2px solid tomato;">Using color and border together.</p>
+
+            <h2>Anchor Tags: </h2>
+                <a href="https://www.google.com" target="_blank">Link To Google</a>
+                <a href="" download="first.jpg"><p style="color:tomato">Download Smiley Face</p></a>
+        </article>
+                
+        <hr>
+        <!--Lists-->
+        <article>
+            <h3>Things I Like: </h3>
+            <ul type="square">
+                <li>Music</li>
+                <li>Programming</li>
+                <li>Cricket</li>
+                <li>Travelling</li>
+            </ul>
+            <h3>Languages Known:</h3>
+            <ol>
+                <li>Java</li>
+                <li>C</li>
+                <li>C++</li>
+                <li>DBMS</li>
+                <li>C#</li>
+                <li>HTML</li>
+            </ol>
+        </article>
+
+        <!--Forms-->
+        <section class="Contact-Form">
+            <h3>Please Fill This Form:</h3>
+            <form action="results.html" method="GET">
+                <div>
+                    <label for="name">Name:</label>
+                    <input type="text" name="name" id="name" placeholder="Name" required>
+                </div>
+                <div>
+                    <label for="email">Email:</label>
+                    <input type="email" name="email" id="email" placeholder="Email ID" required>
+                </div>
+                <div>
+                    <label for="mob">Contact Number:</label>
+                    <input type="tel" name="mob" id="mob" placeholder="Enter mob.no" required>
+                </div>
+                <div>
+                    <label for="bday">Birthday:</label>
+                    <input type="date" name="bday" id="bday" placeholder="Enter birthday" required>
+                </div>
+                <div>
+                    <label for="Message">
+                        Message:
+                        <textarea cols="20" rows="1" name="Message" id="Message" placeholder="Enter your message here"></textarea>
+                    </label>
+                </div>
+                <div>
+                    <label for="Male">M</label>
+                    <input type="radio" name="gender" id="Male">
+                </div>
+                <div>
+                    <label for="Female">F</label>
+                    <input type="radio" name="gender" id="Female">
+                </div>
+                
+                <button type="submit">Submit</button>
+                <button type="reset">Reset</button>
+            </form>
+        </section>
+
+        <!--Table-->
+        <section class="Groceries">
+            <h3>Groceries: </h3>
+            <table border="1">
+                <tr bgcolor="#ADD8E6">
+                    <th>Item</th>
+                    <th>Quantity</th>
+                    <th>Price(in Rs.)</th>
+                </tr>
+
+                <tr>
+                    <td>Eggs</td>
+                    <td>12</td>
+                    <td>60</td>
+                </tr>
+
+                <tr>
+                    <td>Bread</td>
+                    <td>2</td>
+                    <td>70</td>
+                </tr>
+
+                <tr>
+                    <td>Milk</td>
+                    <td>3L</td>
+                    <td>150</td>
+                </tr>
+            </table>
+        </section>
+    </main>
+
+    <hr>
+
+    <footer>
+        <p>Thanks for Visiting.</p>
+        <p class="copyright"> &copy; copyright 2020 </p>
+        <a href="contact.html">To Contact Me</a>
+    </footer>
+
+</body>
+</html>
